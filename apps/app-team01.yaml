@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: team01
+  namespace: argocd
+spec:
+  project: team01
+  source:
+    repoURL: https://github.com/hs-events/ingestion-service-team01
+    targetRevision: main
+    path: infra/k8s
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: team01
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
