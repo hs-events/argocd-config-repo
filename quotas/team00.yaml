@@ -4,6 +4,11 @@ metadata:
   name: team00
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/initCPU: "50m"
+    sidecar.istio.io/initMemory: "64Mi"
 ---
 apiVersion: v1
 kind: ResourceQuota
