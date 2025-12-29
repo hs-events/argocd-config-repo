@@ -2,8 +2,8 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: team00
-  labels:
-    istio-injection: enabled
+  #labels:
+  #  istio-injection: enabled
   annotations:
     sidecar.istio.io/proxyCPU: "100m"
     sidecar.istio.io/proxyCPULimit: "200m"
