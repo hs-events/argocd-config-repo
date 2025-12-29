@@ -21,8 +21,8 @@ metadata:
   namespace: team00
 spec:
   hard:
-    requests.cpu: "5"
-    limits.cpu: "5"
+    requests.cpu: "10"
+    limits.cpu: "10"
     requests.memory: 8Gi
     limits.memory: 8Gi
     pods: "50"
