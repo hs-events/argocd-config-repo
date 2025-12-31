@@ -777,82 +777,82 @@
 #      prune: true
 #      selfHeal: true
 #---
-#apiVersion: argoproj.io/v1alpha1
-#kind: Application
-#metadata:
-#  name: team41
-#  namespace: argocd
-#spec:
-#  project: team41
-#  source:
-#    repoURL: https://github.com/hs-events/empty-repo
-#    targetRevision: main
-#    path: .
-#  destination:
-#    server: https://kubernetes.default.svc
-#    namespace: team41
-#  syncPolicy:
-#    automated:
-#      prune: true
-#      selfHeal: true
-#---
-#apiVersion: argoproj.io/v1alpha1
-#kind: Application
-#metadata:
-#  name: team42
-#  namespace: argocd
-#spec:
-#  project: team42
-#  source:
-#    repoURL: https://github.com/hs-events/empty-repo
-#    targetRevision: main
-#    path: .
-#  destination:
-#    server: https://kubernetes.default.svc
-#    namespace: team42
-#  syncPolicy:
-#    automated:
-#      prune: true
-#      selfHeal: true
-#---
-#apiVersion: argoproj.io/v1alpha1
-#kind: Application
-#metadata:
-#  name: team43
-#  namespace: argocd
-#spec:
-#  project: team43
-#  source:
-#    repoURL: https://github.com/hs-events/empty-repo
-#    targetRevision: main
-#    path: .
-#  destination:
-#    server: https://kubernetes.default.svc
-#    namespace: team43
-#  syncPolicy:
-#    automated:
-#      prune: true
-#      selfHeal: true
-#---
-#apiVersion: argoproj.io/v1alpha1
-#kind: Application
-#metadata:
-#  name: team44
-#  namespace: argocd
-#spec:
-#  project: team44
-#  source:
-#    repoURL: https://github.com/hs-events/empty-repo
-#    targetRevision: main
-#    path: .
-#  destination:
-#    server: https://kubernetes.default.svc
-#    namespace: team44
-#  syncPolicy:
-#    automated:
-#      prune: true
-#      selfHeal: true
-#---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+ name: team41
+ namespace: argocd
+spec:
+ project: team41
+ source:
+   repoURL: https://github.com/hs-events/empty-repo
+   targetRevision: main
+   path: .
+ destination:
+   server: https://kubernetes.default.svc
+   namespace: team41
+ syncPolicy:
+   automated:
+     prune: true
+     selfHeal: true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+ name: team42
+ namespace: argocd
+spec:
+ project: team42
+ source:
+   repoURL: https://github.com/hs-events/empty-repo
+   targetRevision: main
+   path: .
+ destination:
+   server: https://kubernetes.default.svc
+   namespace: team42
+ syncPolicy:
+   automated:
+     prune: true
+     selfHeal: true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+ name: team43
+ namespace: argocd
+spec:
+ project: team43
+ source:
+   repoURL: https://github.com/hs-events/empty-repo
+   targetRevision: main
+   path: .
+ destination:
+   server: https://kubernetes.default.svc
+   namespace: team43
+ syncPolicy:
+   automated:
+     prune: true
+     selfHeal: true
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+ name: team44
+ namespace: argocd
+spec:
+ project: team44
+ source:
+   repoURL: https://github.com/hs-events/empty-repo
+   targetRevision: main
+   path: .
+ destination:
+   server: https://kubernetes.default.svc
+   namespace: team44
+ syncPolicy:
+   automated:
+     prune: true
+     selfHeal: true
+---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
