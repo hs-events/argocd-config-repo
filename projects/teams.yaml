@@ -1,0 +1,25 @@
+apiVersion: argoproj.io/v1alpha1
+kind: List
+items:
+{{- range $i := seq 3 45 }}
+- apiVersion: argoproj.io/v1alpha1
+  kind: AppProject
+  metadata:
+    name: team{{ printf "%02d" $i }}
+    namespace: argocd
+    annotations:
+      argocd.argoproj.io/sync-wave: "0"
+  spec:
+    description: "Project for team{{ printf "%02d" $i }} apps"
+    sourceRepos:
+      - '*'
+    destinations:
+      - namespace: team{{ printf "%02d" $i }}
+        server: 'https://kubernetes.default.svc'
+    clusterResourceWhitelist:
+      - group: '*'
+        kind: '*'
+    namespaceResourceWhitelist:
+      - group: '*'
+        kind: '*'
+{{- end }}
