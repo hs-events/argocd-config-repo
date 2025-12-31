@@ -785,9 +785,9 @@ metadata:
 spec:
  project: team41
  source:
-   repoURL: https://github.com/hs-events/empty-repo
+   repoURL: https://github.com/hs-events/ingestion-service-team41
    targetRevision: main
-   path: .
+   path: infra/k8s
  destination:
    server: https://kubernetes.default.svc
    namespace: team41
@@ -804,9 +804,9 @@ metadata:
 spec:
  project: team42
  source:
-   repoURL: https://github.com/hs-events/empty-repo
+   repoURL: https://github.com/hs-events/ingestion-service-team42
    targetRevision: main
-   path: .
+   path: infra/k8s
  destination:
    server: https://kubernetes.default.svc
    namespace: team42
@@ -823,9 +823,9 @@ metadata:
 spec:
  project: team43
  source:
-   repoURL: https://github.com/hs-events/empty-repo
+   repoURL: https://github.com/hs-events/ingestion-service-team43
    targetRevision: main
-   path: .
+   path: infra/k8s
  destination:
    server: https://kubernetes.default.svc
    namespace: team43
@@ -842,9 +842,9 @@ metadata:
 spec:
  project: team44
  source:
-   repoURL: https://github.com/hs-events/empty-repo
+   repoURL: https://github.com/hs-events/ingestion-service-team44
    targetRevision: main
-   path: .
+   path: infra/k8s
  destination:
    server: https://kubernetes.default.svc
    namespace: team44
@@ -861,12 +861,9 @@ metadata:
 spec:
  project: team45
  source:
-   repoURL: https://github.com/hs-events/empty-repo
+   repoURL: https://github.com/hs-events/ingestion-service-team45
    targetRevision: main
-   path: .
-   # repoURL: https://github.com/hs-events/ingestion-service
-   # targetRevision: main
-   # path: infra/k8s
+   path: infra/k8s
  destination:
    server: https://kubernetes.default.svc
    namespace: team45
