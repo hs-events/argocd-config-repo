@@ -861,12 +861,12 @@ metadata:
 spec:
  project: team45
  source:
-   # repoURL: https://github.com/hs-events/empty-repo
-   # targetRevision: main
-   # path: .
-   repoURL: https://github.com/hs-events/ingestion-service
+   repoURL: https://github.com/hs-events/empty-repo
    targetRevision: main
-   path: infra/k8s
+   path: .
+   # repoURL: https://github.com/hs-events/ingestion-service
+   # targetRevision: main
+   # path: infra/k8s
  destination:
    server: https://kubernetes.default.svc
    namespace: team45
