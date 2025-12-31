@@ -285,34 +285,34 @@
 #   labels:
 #     istio-injection: enabled
 # ---
-# apiVersion: v1
-# kind: Namespace
-# metadata:
-#   name: team41
-#   labels:
-#     istio-injection: enabled
-# ---
-# apiVersion: v1
-# kind: Namespace
-# metadata:
-#   name: team42
-#   labels:
-#     istio-injection: enabled
-# ---
-# apiVersion: v1
-# kind: Namespace
-# metadata:
-#   name: team43
-#   labels:
-#     istio-injection: enabled
-# ---
-# apiVersion: v1
-# kind: Namespace
-# metadata:
-#   name: team44
-#   labels:
-#     istio-injection: enabled
-# ---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: team41
+  labels:
+    istio-injection: enabled
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: team42
+  labels:
+    istio-injection: enabled
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: team43
+  labels:
+    istio-injection: enabled
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: team44
+  labels:
+    istio-injection: enabled
+---
 apiVersion: v1
 kind: Namespace
 metadata:
