@@ -4,6 +4,15 @@ metadata:
   name: team00
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
