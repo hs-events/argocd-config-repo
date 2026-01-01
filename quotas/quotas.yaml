@@ -1,1274 +1,1274 @@
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team00
-#   namespace: team00
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team00
-#   namespace: team00
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team01
-#   namespace: team01
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team01
-#   namespace: team01
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team02
-#   namespace: team02
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team02
-#   namespace: team02
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team03
-#   namespace: team03
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team03
-#   namespace: team03
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team04
-#   namespace: team04
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team04
-#   namespace: team04
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team05
-#   namespace: team05
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team05
-#   namespace: team05
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team06
-#   namespace: team06
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team06
-#   namespace: team06
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team07
-#   namespace: team07
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team07
-#   namespace: team07
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team08
-#   namespace: team08
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team08
-#   namespace: team08
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team09
-#   namespace: team09
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team09
-#   namespace: team09
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team10
-#   namespace: team10
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team10
-#   namespace: team10
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team11
-#   namespace: team11
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team11
-#   namespace: team11
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team12
-#   namespace: team12
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team12
-#   namespace: team12
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team13
-#   namespace: team13
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team13
-#   namespace: team13
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team14
-#   namespace: team14
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team14
-#   namespace: team14
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team15
-#   namespace: team15
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team15
-#   namespace: team15
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team16
-#   namespace: team16
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team16
-#   namespace: team16
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team17
-#   namespace: team17
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team17
-#   namespace: team17
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team18
-#   namespace: team18
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team18
-#   namespace: team18
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team19
-#   namespace: team19
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team19
-#   namespace: team19
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team20
-#   namespace: team20
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team20
-#   namespace: team20
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team21
-#   namespace: team21
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team21
-#   namespace: team21
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team22
-#   namespace: team22
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team22
-#   namespace: team22
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team23
-#   namespace: team23
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team23
-#   namespace: team23
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team24
-#   namespace: team24
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team24
-#   namespace: team24
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team25
-#   namespace: team25
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team25
-#   namespace: team25
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team26
-#   namespace: team26
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team26
-#   namespace: team26
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team27
-#   namespace: team27
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team27
-#   namespace: team27
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team28
-#   namespace: team28
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team28
-#   namespace: team28
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team29
-#   namespace: team29
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team29
-#   namespace: team29
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team30
-#   namespace: team30
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team30
-#   namespace: team30
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team31
-#   namespace: team31
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team31
-#   namespace: team31
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team32
-#   namespace: team32
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team32
-#   namespace: team32
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team33
-#   namespace: team33
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team33
-#   namespace: team33
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team34
-#   namespace: team34
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team34
-#   namespace: team34
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team35
-#   namespace: team35
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team35
-#   namespace: team35
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team36
-#   namespace: team36
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team36
-#   namespace: team36
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team37
-#   namespace: team37
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team37
-#   namespace: team37
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team38
-#   namespace: team38
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team38
-#   namespace: team38
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team39
-#   namespace: team39
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team39
-#   namespace: team39
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team40
-#   namespace: team40
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team40
-#   namespace: team40
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "2"
-#         memory: "2Gi"
-# ---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team00
+  namespace: team00
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team00
+  namespace: team00
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team01
+  namespace: team01
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team01
+  namespace: team01
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team02
+  namespace: team02
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team02
+  namespace: team02
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team03
+  namespace: team03
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team03
+  namespace: team03
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team04
+  namespace: team04
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team04
+  namespace: team04
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team05
+  namespace: team05
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team05
+  namespace: team05
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team06
+  namespace: team06
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team06
+  namespace: team06
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team07
+  namespace: team07
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team07
+  namespace: team07
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team08
+  namespace: team08
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team08
+  namespace: team08
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team09
+  namespace: team09
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team09
+  namespace: team09
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team10
+  namespace: team10
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team10
+  namespace: team10
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team11
+  namespace: team11
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team11
+  namespace: team11
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team12
+  namespace: team12
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team12
+  namespace: team12
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team13
+  namespace: team13
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team13
+  namespace: team13
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team14
+  namespace: team14
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team14
+  namespace: team14
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team15
+  namespace: team15
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team15
+  namespace: team15
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team16
+  namespace: team16
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team16
+  namespace: team16
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team17
+  namespace: team17
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team17
+  namespace: team17
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team18
+  namespace: team18
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team18
+  namespace: team18
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team19
+  namespace: team19
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team19
+  namespace: team19
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team20
+  namespace: team20
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team20
+  namespace: team20
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team21
+  namespace: team21
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team21
+  namespace: team21
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team22
+  namespace: team22
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team22
+  namespace: team22
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team23
+  namespace: team23
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team23
+  namespace: team23
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team24
+  namespace: team24
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team24
+  namespace: team24
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team25
+  namespace: team25
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team25
+  namespace: team25
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team26
+  namespace: team26
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team26
+  namespace: team26
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team27
+  namespace: team27
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team27
+  namespace: team27
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team28
+  namespace: team28
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team28
+  namespace: team28
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team29
+  namespace: team29
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team29
+  namespace: team29
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team30
+  namespace: team30
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team30
+  namespace: team30
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team31
+  namespace: team31
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team31
+  namespace: team31
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team32
+  namespace: team32
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team32
+  namespace: team32
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team33
+  namespace: team33
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team33
+  namespace: team33
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team34
+  namespace: team34
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team34
+  namespace: team34
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team35
+  namespace: team35
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team35
+  namespace: team35
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team36
+  namespace: team36
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team36
+  namespace: team36
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team37
+  namespace: team37
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team37
+  namespace: team37
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team38
+  namespace: team38
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team38
+  namespace: team38
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team39
+  namespace: team39
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team39
+  namespace: team39
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team40
+  namespace: team40
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team40
+  namespace: team40
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "2"
+        memory: "2Gi"
+---
 apiVersion: v1
 kind: ResourceQuota
 metadata:
@@ -1300,36 +1300,36 @@ spec:
         cpu: "2"
         memory: "2Gi"
 ---
-# apiVersion: v1
-# kind: ResourceQuota
-# metadata:
-#   name: team42
-#   namespace: team42
-# spec:
-#   hard:
-#     requests.cpu: "8"
-#     limits.cpu: "8"
-#     requests.memory: 8Gi
-#     limits.memory: 8Gi
-#     pods: "50"
-# ---
-# apiVersion: v1
-# kind: LimitRange
-# metadata:
-#   name: team42
-#   namespace: team42
-# spec:
-#   limits:
-#     - type: Container
-#       default:
-#         cpu: "500m"
-#         memory: "512Mi"
-#       defaultRequest:
-#         cpu: "250m"
-#         memory: "256Mi"
-#       max:
-#         cpu: "4"
-#         memory: "4Gi"
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team42
+  namespace: team42
+spec:
+  hard:
+    requests.cpu: "8"
+    limits.cpu: "8"
+    requests.memory: 8Gi
+    limits.memory: 8Gi
+    pods: "50"
+---
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: team42
+  namespace: team42
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "250m"
+        memory: "256Mi"
+      max:
+        cpu: "4"
+        memory: "4Gi"
 ---
 apiVersion: v1
 kind: ResourceQuota
