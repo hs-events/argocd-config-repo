@@ -1,0 +1,24 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: team00-admin
+  namespace: team00
+rules:
+- apiGroups: ["", "apps", "batch", "extensions", "networking.k8s.io", "*"]
+  resources: ["*"]
+  verbs: ["*"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: team00-admin-binding
+  namespace: team00
+subjects:
+- kind: User
+  name: team00
+  apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: team00-admin
+  apiGroup: rbac.authorization.k8s.io
+---
