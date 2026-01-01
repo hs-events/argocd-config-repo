@@ -20,6 +20,15 @@ metadata:
   name: team01
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -27,6 +36,15 @@ metadata:
   name: team02
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -34,6 +52,15 @@ metadata:
   name: team03
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -41,6 +68,15 @@ metadata:
   name: team04
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -48,6 +84,15 @@ metadata:
   name: team05
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -55,6 +100,15 @@ metadata:
   name: team06
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -62,6 +116,15 @@ metadata:
   name: team07
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -69,6 +132,15 @@ metadata:
   name: team08
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -76,6 +148,15 @@ metadata:
   name: team09
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -83,6 +164,15 @@ metadata:
   name: team10
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -90,6 +180,15 @@ metadata:
   name: team11
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -97,6 +196,15 @@ metadata:
   name: team12
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -104,6 +212,15 @@ metadata:
   name: team13
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -111,6 +228,15 @@ metadata:
   name: team14
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -118,6 +244,15 @@ metadata:
   name: team15
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -125,6 +260,15 @@ metadata:
   name: team16
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -132,6 +276,15 @@ metadata:
   name: team17
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -139,6 +292,15 @@ metadata:
   name: team18
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -146,6 +308,15 @@ metadata:
   name: team19
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -153,6 +324,15 @@ metadata:
   name: team20
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -160,6 +340,15 @@ metadata:
   name: team21
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -167,6 +356,15 @@ metadata:
   name: team22
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -174,6 +372,15 @@ metadata:
   name: team23
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -181,6 +388,15 @@ metadata:
   name: team24
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -188,6 +404,15 @@ metadata:
   name: team25
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -195,6 +420,15 @@ metadata:
   name: team26
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -202,6 +436,15 @@ metadata:
   name: team27
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -209,6 +452,15 @@ metadata:
   name: team28
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -216,6 +468,15 @@ metadata:
   name: team29
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -223,6 +484,15 @@ metadata:
   name: team30
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -230,6 +500,15 @@ metadata:
   name: team31
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -237,6 +516,15 @@ metadata:
   name: team32
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -244,6 +532,15 @@ metadata:
   name: team33
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -251,6 +548,15 @@ metadata:
   name: team34
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -258,6 +564,15 @@ metadata:
   name: team35
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -265,6 +580,15 @@ metadata:
   name: team36
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -272,6 +596,15 @@ metadata:
   name: team37
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -279,6 +612,15 @@ metadata:
   name: team38
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -286,6 +628,15 @@ metadata:
   name: team39
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -293,6 +644,15 @@ metadata:
   name: team40
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -300,6 +660,15 @@ metadata:
   name: team41
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -307,6 +676,15 @@ metadata:
   name: team42
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -314,6 +692,15 @@ metadata:
   name: team43
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -321,6 +708,15 @@ metadata:
   name: team44
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
 apiVersion: v1
 kind: Namespace
@@ -328,4 +724,13 @@ metadata:
   name: team45
   labels:
     istio-injection: enabled
+  annotations:
+    sidecar.istio.io/proxyCPU: "100m"
+    sidecar.istio.io/proxyCPULimit: "200m"
+    sidecar.istio.io/proxyMemory: "128Mi"
+    sidecar.istio.io/proxyMemoryLimit: "256Mi"
+    sidecar.istio.io/initCPU: "100m"
+    sidecar.istio.io/initCPULimit: "100m"
+    sidecar.istio.io/initMemory: "64Mi"
+    sidecar.istio.io/initMemoryLimit: "128Mi"
 ---
