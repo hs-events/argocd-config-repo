@@ -63,9 +63,9 @@ metadata:
 spec:
  project: team03
  source:
-   repoURL: https://github.com/hs-events/empty-repo
+   repoURL: https://github.com/hs-events/ingestion-service_AhmedAbanmi
    targetRevision: main
-   path: .
+   path: infra/k8s
  destination:
    server: https://kubernetes.default.svc
    namespace: team03
