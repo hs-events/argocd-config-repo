@@ -595,7 +595,7 @@ metadata:
 spec:
  project: team31
  source:
-   repoURL: https://github.com/Ghaffar110/hs-ingestion-service
+   repoURL: https://github.com/hs-events/hs-ingestion-service-31
    targetRevision: main
    path: infra/k8s
  destination:
