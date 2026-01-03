@@ -139,9 +139,9 @@ metadata:
 spec:
  project: team07
  source:
-   repoURL: https://github.com/hs-events/empty-repo
+   repoURL: https://github.com/hs-events/ingestion-service-meka
    targetRevision: main
-   path: .
+   path: infra/k8s
  destination:
    server: https://kubernetes.default.svc
    namespace: team07
