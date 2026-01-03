@@ -272,9 +272,9 @@ metadata:
 spec:
  project: team14
  source:
-   repoURL: https://github.com/hs-events/empty-repo
+   repoURL: https://github.com/muhammadattia95/ingestion-service-attia
    targetRevision: main
-   path: .
+   path: infra/k8s
  destination:
    server: https://kubernetes.default.svc
    namespace: team14
