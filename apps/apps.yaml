@@ -766,9 +766,9 @@ metadata:
 spec:
  project: team40
  source:
-   repoURL: https://github.com/hs-events/empty-repo
+   repoURL: https://github.com/hs-events/ingestion-service-mo
    targetRevision: main
-   path: .
+   path: infra/k8s
  destination:
    server: https://kubernetes.default.svc
    namespace: team40
