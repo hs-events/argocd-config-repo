@@ -804,9 +804,9 @@ metadata:
 spec:
  project: team42
  source:
-   repoURL: https://github.com/hs-events/empty-repo-team42
+   repoURL: https://github.com/hs-events/ingestion-service-42
    targetRevision: main
-   path: .
+   path: infra/k8s
  destination:
    server: https://kubernetes.default.svc
    namespace: team42
