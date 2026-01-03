@@ -872,3 +872,22 @@ spec:
      prune: true
      selfHeal: true
 ---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+ name: team40
+ namespace: argocd
+spec:
+ project: team40
+ source:
+   repoURL: https://github.com/hs-events/ingestion-service-mo
+   targetRevision: main
+   path: infra/k8s
+ destination:
+   server: https://kubernetes.default.svc
+   namespace: team40
+ syncPolicy:
+   automated:
+     prune: true
+     selfHeal: true
+---
