@@ -386,9 +386,9 @@ metadata:
 spec:
  project: team20
  source:
-   repoURL: https://github.com/hs-events/empty-repo
+   repoURL: https://github.com/hs-events/na-ingestion-service
    targetRevision: main
-   path: .
+   path: infra/k8s
  destination:
    server: https://kubernetes.default.svc
    namespace: team20
