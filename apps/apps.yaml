@@ -6,7 +6,7 @@ metadata:
 spec:
  project: team00
  source:
-   repoURL: https://github.com/hs-events/ingestion-service
+   repoURL: https://github.com/hs-events/ingestion-service00
    targetRevision: main
    path: infra/k8s
  destination:
