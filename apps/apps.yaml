@@ -595,9 +595,9 @@ metadata:
 spec:
  project: team31
  source:
-   repoURL: https://github.com/hs-events/empty-repo
+   repoURL: https://github.com/Ghaffar110/hs-ingestion-service
    targetRevision: main
-   path: .
+   path: infra/k8s
  destination:
    server: https://kubernetes.default.svc
    namespace: team31
