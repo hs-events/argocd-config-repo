@@ -462,9 +462,9 @@ metadata:
 spec:
  project: team24
  source:
-   repoURL: https://github.com/hs-events/empty-repo
+   repoURL: https://github.com/Mohammed595/ingestion-service-moh
    targetRevision: main
-   path: .
+   path: infra/k8s
  destination:
    server: https://kubernetes.default.svc
    namespace: team24
