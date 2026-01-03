@@ -158,9 +158,9 @@ metadata:
 spec:
  project: team08
  source:
-   repoURL: https://github.com/hs-events/empty-repo
+   repoURL: https://github.com/hs-events/ingestion-service-ark333333
    targetRevision: main
-   path: .
+   path: infra/k8s
  destination:
    server: https://kubernetes.default.svc
    namespace: team08
