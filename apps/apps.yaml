@@ -785,7 +785,7 @@ metadata:
 spec:
  project: team41
  source:
-   repoURL: https://github.com/hs-events/empty-repo-team41
+   repoURL: https://github.com/hs-events/empty-repo
    targetRevision: main
    path: .
  destination:
@@ -804,7 +804,7 @@ metadata:
 spec:
  project: team42
  source:
-   repoURL: https://github.com/hs-events/empty-repo-team42
+   repoURL: https://github.com/hs-events/empty-repo
    targetRevision: main
    path: .
  destination:
@@ -823,7 +823,7 @@ metadata:
 spec:
  project: team43
  source:
-   repoURL: https://github.com/hs-events/empty-repo-team43
+   repoURL: https://github.com/hs-events/empty-repo
    targetRevision: main
    path: .
  destination:
@@ -842,7 +842,7 @@ metadata:
 spec:
  project: team44
  source:
-   repoURL: https://github.com/hs-events/empty-repo-team44
+   repoURL: https://github.com/hs-events/empty-repo
    targetRevision: main
    path: .
  destination:
@@ -861,7 +861,7 @@ metadata:
 spec:
  project: team45
  source:
-   repoURL: https://github.com/hs-events/empty-repo-team45
+   repoURL: https://github.com/hs-events/empty-repo
    targetRevision: main
    path: .
  destination:
