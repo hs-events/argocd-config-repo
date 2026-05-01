@@ -1102,3 +1102,123 @@ roleRef:
   name: team45-admin
   apiGroup: rbac.authorization.k8s.io
 ---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: team46-admin
+  namespace: team46
+rules:
+- apiGroups: ["", "apps", "batch", "extensions", "networking.k8s.io", "*"]
+  resources: ["*"]
+  verbs: ["*"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: team46-admin-binding
+  namespace: team46
+subjects:
+- kind: User
+  name: team46
+  apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: team46-admin
+  apiGroup: rbac.authorization.k8s.io
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: team47-admin
+  namespace: team47
+rules:
+- apiGroups: ["", "apps", "batch", "extensions", "networking.k8s.io", "*"]
+  resources: ["*"]
+  verbs: ["*"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: team47-admin-binding
+  namespace: team47
+subjects:
+- kind: User
+  name: team47
+  apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: team47-admin
+  apiGroup: rbac.authorization.k8s.io
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: team48-admin
+  namespace: team48
+rules:
+- apiGroups: ["", "apps", "batch", "extensions", "networking.k8s.io", "*"]
+  resources: ["*"]
+  verbs: ["*"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: team48-admin-binding
+  namespace: team48
+subjects:
+- kind: User
+  name: team48
+  apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: team48-admin
+  apiGroup: rbac.authorization.k8s.io
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: team49-admin
+  namespace: team49
+rules:
+- apiGroups: ["", "apps", "batch", "extensions", "networking.k8s.io", "*"]
+  resources: ["*"]
+  verbs: ["*"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: team49-admin-binding
+  namespace: team49
+subjects:
+- kind: User
+  name: team49
+  apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: team49-admin
+  apiGroup: rbac.authorization.k8s.io
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: team50-admin
+  namespace: team50
+rules:
+- apiGroups: ["", "apps", "batch", "extensions", "networking.k8s.io", "*"]
+  resources: ["*"]
+  verbs: ["*"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: team50-admin-binding
+  namespace: team50
+subjects:
+- kind: User
+  name: team50
+  apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: team50-admin
+  apiGroup: rbac.authorization.k8s.io
+---
