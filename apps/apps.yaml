@@ -348,7 +348,7 @@ metadata:
 spec:
  project: team18
  source:
-   repoURL: https://github.com/hs-events/empty-repo
+   repoURL: https://github.com/hs-events/ingestion-service-team18
    targetRevision: main
    path: .
  destination:
